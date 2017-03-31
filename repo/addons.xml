@@ -1,0 +1,264 @@
+<addons>
+<addon id="plugin.video.hades"
+       name="Hades"
+       version="1.0"
+       provider-name="Jose Amado">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">How to create a video addon for Kodi</summary>
+    <description lang="en">Best Kore Tutorials. SimpleKore.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.frenchdj.media.center"
+       name="Frenchdj Media Center"
+       version="1.0"
+       provider-name="frenchdj">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="false"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Media Center [ Home ]</summary>
+    <description>Media Center com os seguintes addons: 
+Alive HD - Concertos e performances de Djs com Qualidade HD
+PT DocS HD - Documentários em HD
+Jami - Séries de Desenhos animados em [PT] e [BR] 
+Traquinas - Filmes de desenhos animados em [PT] e [BR]
+Outros [ Integrações de addons devidamente reconhecidos e com a identificação dos seus providers ]
+[B][COLOR lime]Para que haja um bom funcionamento deste addon, o URL RESOLVER tem de estar activo e atualizado no kodi.[/COLOR][/B]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AresKungfu"
+	name="[COLOR blue]A[/COLOR][COLOR white]res Kung-Fu[/COLOR]"
+	version="1.0.1"
+	provider-name="Ares-Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A massive mixed up selection of Kung-Fu movies and Content from everyones favourite sharing site.. Youtube</summary>
+    <description lang="en">Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.AresMotorSports"
+	name="[COLORblue]A[/COLOR][COLORwhite]res MotorSports[/COLOR]"
+	version="1.0.2"
+	provider-name="Ares Project">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Selection of motorsports/racing Content</summary>
+    <description lang="en">A Selection Of Mixed MotorSports content from free sources - Hope You Enjoy.. Poppa Smurf - Join us on the forum @ http://ares-project.uk</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.exodus" version="2.0.12" name="Exodus" provider-name="Exodus">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.exodus" version="1.0.0" />
+		<import addon="script.exodus.artwork" version="1.0.4" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="exodus.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus</summary>
+		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+		<news>- Fixed issue with Trakt Progress (hidden items)[CR]- Fixed issue with urlresolver's openload pair dialog[CR]- Tweaked search and caching of providers[CR]- Updated providers</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.p2psport"
+	name="P2P Sport"
+	version="0.1.4"
+	provider-name="natko1412,Extracsaba">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.mechanize" version="0.2.6"/>
+
+    
+    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch p2p sports in Kodi</summary>
+    
+    <platform>all</platform>
+    <forum>forums.tvaddons.ag</forum>
+    
+  </extension>
+</addon>
+
+<addon id="plugin.video.teamblue"
+       name="TeamBlue Live Events"
+       version="2.0"
+       provider-name="TeamBlue">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt">Add-on ao  estilo Agenda</summary>
+    <description lang="pt">
+	O add-0n TeamBlue apresenta as seguintes seccoes:
+	Agenda desportiva com transmissoes em direto de varias modalidades
+	Sports Replays (Futebol-Desportos Motorizados-WWE-UFC-NBA)
+	Canais Wolrd IPTV (Portugal-Alemanha-Espanha-Franca-Italia-Inglaterra-Brasil) 
+	Canais Arenavision (para ver com o Plexus)
+	Filmes e Series (usando o add-on SPECTO)
+	Webcam's
+	NOTA: para a correta visualizacao de alguns canais e necessario ter instalados: 
+	f4mtester – f4mproxy - Sports Devil – Specto – Plexus
+	O criador deste addon nao possui nem esta ligado de nenhuma forma ao conteudo nele disponibilizado.
+	Apenas disponibiliza conteudos de terceiros	
+	</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.ZemTV-shani"
+       name="Zem"
+       version="6.0.6"
+       provider-name="shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="1.0.0"/>
+	<import addon="plugin.video.youtube" version="2.9.2" optional="true"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+       	<import addon="script.module.elementtree" version="1.2.8"/>
+
+
+    <import addon="plugin.video.f4mTester" version="2.2.3" optional="true" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Zem Addon for sports and desi contents. Visit TVADDONS.ag for support</summary>
+    <description>Watch Sports and Desi contents on your XBMC. This plugin fetches the video sources from various platforms and locations</description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with any of the content provider.</disclaimer>
+    <forum>https://forums.tvaddons.ag/shanis-addon-repository/</forum>
+    <email>@shani_08_kodi</email>
+    <platform>all</platform>
+
+        
+  </extension>
+</addon>
+
+<addon id="plugin.video.inspiration"
+       name="Inspiration Live TV"
+       version="2.6"
+       provider-name="inspiration">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt">Inspiration Live TV Reune uma grande variedades de Conteudos e Tematicas</summary>
+    <description lang="pt">IMPORTANTE: Para aceder a todo o conteudo necessita de instalar varios Plugins 
+f4mtester - f4mproxy - Sports Devil - Plexus
+Encontrara toda a Informacao e Novidades em:
+www.jerrymoz.wordpress.com E www.facebook.com/inpirationlinks</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+</addons>
